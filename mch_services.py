@@ -138,6 +138,21 @@ DIVISION_MAP = {
     "08": "Mymensingh"
 }
 
+MONTH_MAP = {
+    "01": "January",
+    "02": "February", 
+    "03": "March",
+    "04": "April",
+    "05": "May", 
+    "06": "June",
+    "07": "July",
+    "08": "August",
+    "09": "September",
+    "10": "October",
+    "11": "November",
+    "12": "December",
+}
+
 def extract_data_rows(table, facility_keywords):
     """Extract data rows from table and remove last row if it's a total row"""
     rows = table.find_all('tr')
